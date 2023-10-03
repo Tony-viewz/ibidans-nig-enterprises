@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+}
+
+p {
+  @apply text-[#333333] text-sm md:text-base lg:text-lg;
+}
+
+h1 {
+  @apply text-[#007acc] sm:text-2xl md:text-3xl lg:text-4xl;
+}
+
+button {
+  @apply bg-[#007acc] text-[#ffffff];
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
